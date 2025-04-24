@@ -26,6 +26,7 @@
                         <a href="#countries" class="nav-link">途经国家</a>
                         <a href="#goods" class="nav-link">贸易商品</a>
                         <a href="#map" class="nav-link">核心地图</a>
+                        <a href="#person" class="nav-link">人物志</a>
                     </div>
                 </div>
                 <div class="flex items-center space-x-4">
@@ -747,7 +748,68 @@
         </div>
 </section>
     
-   
+  <!--人物志 -->
+<section id="person" class="py-20 bg-gray-50 dark:bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- 标题部分 -->
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
+                铁路先锋人物志
+                <span class="block mt-2 text-lg text-gray-600 dark:text-gray-400">探索背后的建设者故事</span>
+            </h2>
+        </div>
+
+        <!-- 人物卡片容器 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 人物卡片模板 -->
+            <div class="person-card group">
+                <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
+                    <!-- 人物照片 -->
+                    <div class="relative pt-[60%]">
+                        <img src="图片1.png" 
+                             alt="张伟明总工程师"
+                             class="absolute top-0 left-1/2 -translate-x-1/2 w-48 h-48 object-cover rounded-full border-4 border-white dark:border-gray-700 shadow-lg group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    
+                    <!-- 人物信息 -->
+                    <div class="p-6 text-center">
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
+                            张伟明
+                            <span class="block text-sm font-normal text-blue-600 dark:text-blue-400 mt-1">
+                                总工程师
+                            </span>
+                        </h3>
+                        
+                        <!-- 分隔线 -->
+                        <div class="my-4 h-px bg-gray-200 dark:bg-gray-600 w-3/4 mx-auto"></div>
+                        
+                        <!-- 人物简介 -->
+                        <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                            负责义新欧班列全线技术规划，主导完成阿拉山口轨距改造工程。拥有20年铁路建设经验，荣获国家铁路建设金质奖章。
+                        </p>
+                        
+                        <!-- 荣誉徽章 -->
+                        <div class="mt-4 flex justify-center space-x-2">
+                            <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 text-xs rounded-full">
+                                创新先锋
+                            </span>
+                            <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-300 text-xs rounded-full">
+                                安全标兵
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 更多人物卡片（复制模板修改数据即可） -->
+            <div class="person-card group">
+                <!-- 结构同上，更换图片和内容 -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
  <!-- 页脚 -->
 <footer class="bg-gray-800 text-gray-300 py-12">
